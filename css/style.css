@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* <INDEX> */
+.banner-img-index{
+    width: 100%;
+    object-fit: cover;
+    height: 900px;
+}
+.container-index{
+    padding-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.flex{
+    display: flex;
+}
+#list{
+    padding-top: 150px;
+}
+.orange{
+    color: #f9a826;
+    font-weight: bold;
+}
+/* <MUSIC> */
+.container-music{
+    margin-top: 130px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.container-music ul{
+    margin-left: 5%;
+}
+/* ABOUT */
+.container-about{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.small-img{
+    width: 400px;
+}
+
+/* CONTACT */
+.container-contact{
+    margin-top: 130px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.contact-input{
+    width: 400px;
+}
+textarea{
+    width: 400px;
+}
+.send{
+    height: 30px;
+    width: 70px;
+    color: white;
+    background: red;
+    border: none;
+}
+#map{
+    margin-left: 20px;
+    width: 100%;
+    height: 360px;
+}
+
+/* TEXT CENTER */
+.text-center{
+    text-align: center;
+}
+/* <HEADER-NAVBAR> */
+header{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 1px 1px 10px 1px rgb(48, 47, 47);
+}
+.nav ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 10px 5px 10px 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+.nav ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+#a-index{
+    color: red;
+    font-weight: bold;
+}
+#a-about{
+    color: red;
+    font-weight: bold;
+}
+#a-music{
+    color: red;
+    font-weight: bold;
+}
+#a-contact{
+    color: red;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer{
+    padding-top: 10px;
+    background: #ccc;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
